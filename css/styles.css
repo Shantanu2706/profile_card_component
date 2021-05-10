@@ -1,0 +1,95 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(185, 75%, 39%) !important;
+  background-image: url("bg-pattern-top.svg"), url("bg-pattern-bottom.svg") !important;
+  background-position: top -500px left -300px, bottom -700px right -300px;
+  background-repeat: no-repeat;
+
+}
+.card{
+  width: 350px;
+  margin-top: 170px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card-img-top{
+  align-self: center;
+  width: 350px !important;
+  height: 140px !important;
+  margin-top: -1px;
+  object-fit: contain !important;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
+
+
+
+.card-body{
+  display: flex;
+  height: 150px;
+  flex-direction: column;
+  align-items: center;
+}
+.profile{
+  position: relative;
+  border-radius: 50%;
+  width: 40%;
+  top: -70px;
+  border: solid;
+  border-color: white;
+  border-width: 8px;
+}
+
+
+.user{
+  position: relative;
+  text-align: center;
+  top: -50px;
+  font-family: "Kumbh Sans";
+  color: hsl(227, 10%, 46%);
+}
+
+.user p{
+  color: hsl(227, 10%, 46%);
+  font-size: 14px;
+}
+
+.user>span{
+  font-size: 18px;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+
+.box{
+  display: flex;
+  justify-content: space-around;
+}
+
+.box div{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 0.7rem;
+  color: hsl(227, 10%, 46%);
+  letter-spacing: 2px;
+}
+
+.box div span{
+  font-size: 18px;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+
+.attribution{
+  position: relative;
+  top: 100px;
+  color: black;
+}
+
+.foot{
+  color: black;
+  font-weight: 700;
+}
